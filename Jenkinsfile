@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                build 'PES1UG22CS545'
+                build 'PES1UG22CS545-1'
                 sh 'g++ ./main/hello.cpp -o hello_exec'
                 sh 'chmod +x hello_exec'
             }
