@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './hello_executerror'
+                sh './hello_exec'
             }
         }
         stage('Deploy') {
